@@ -25,7 +25,7 @@ def check_card_command(update: Update, context: CallbackContext) -> None:
 
 # Check card from file command handler
 def check_card_file_command(update: Update, context: CallbackContext) -> None:
-    file_path = 'card_details.txt'  # Replace with your actual file path
+    file_path = 'cc.txt'  
     result = check_card_from_file(file_path)
     update.message.reply_text(result)
 
