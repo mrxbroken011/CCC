@@ -1,2 +1,6 @@
 python-telegram-bot
 stripe
+pyrogram
+tgcrypto
+asyncio==3.4.3
+telegram-bot
